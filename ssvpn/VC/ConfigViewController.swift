@@ -164,7 +164,7 @@ class ConfigViewController: UIViewController , SSVPNConfigDelegate , UITextField
         return true
     }
     func showAlertMsd(message:String) -> Void {
-        var v  = UIAlertView.init(title: "SSVPN", message: message, delegate: nil, cancelButtonTitle: "确定")
+        let v  = UIAlertView.init(title: "SSVPN", message: message, delegate: nil, cancelButtonTitle: "确定")
         v.show()
     }
     override func didReceiveMemoryWarning() {
